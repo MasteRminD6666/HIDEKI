@@ -145,6 +145,7 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -mo-text-fill-color: transparent;
+
 }
 
 @keyframes typing {
@@ -229,6 +230,7 @@ body {
     align-items: flex-start;
 
 
+
 }
 
 .planes2 {
@@ -277,4 +279,20 @@ img:hover {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
 
+}
+
+
+.img-container {
+
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.border {
+    border: 1 red solid;
+    
+    
 }
